@@ -22,8 +22,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".LocationService"
-            android:stopWithTask="true">
+            android:name=".LocationService">
         </service>
     </application>
 
