@@ -46,6 +46,7 @@ public class LocationService extends Service {
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         getLocation();
+        //сервис не будет перезапущен после того, как был убит системой
         return START_NOT_STICKY;
     }
 
